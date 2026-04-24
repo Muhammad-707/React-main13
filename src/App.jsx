@@ -1,13 +1,14 @@
 import React from 'react';
-import Header from './components/Header';
-import Content from './components/Content';
-import Footer from './components/Footer'; 
+import Header from './Components/Header';
+import Content from './Components/Content';
+import Footer from './Components/Footer';
+
 
 export default function App() {
   return (
     <div className="bg-[#111] min-h-screen">
       <Header />
-      <Content />
+      <Content/>
       <Footer />
     </div>
   );
